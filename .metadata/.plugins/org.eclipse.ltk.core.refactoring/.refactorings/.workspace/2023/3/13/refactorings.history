@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;CSC_2021_Exam&apos; to &apos;CSC_2021_Exam_Practise&apos;&#x0D;&#x0A;- Original element: &apos;CSC_2021_Exam&apos;&#x0D;&#x0A;- Renamed element: &apos;CSC_2021_Exam&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;CSC_2021_Exam&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=CSC_2021_Exam" name="CSC_2021_Exam_Practise" references="true" stamp="1679988109155" version="1.0"/>
+</session>

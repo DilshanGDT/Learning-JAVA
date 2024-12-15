@@ -1,0 +1,6 @@
+package lk.ac.pdn.model;
+
+public interface LightWeightVehicleDrivable {
+
+	void drive();
+}

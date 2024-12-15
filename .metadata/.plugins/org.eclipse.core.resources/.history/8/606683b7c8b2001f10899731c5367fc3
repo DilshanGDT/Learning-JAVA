@@ -1,0 +1,19 @@
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		List<Integer> intList = Arrays.asList(2, 4, 1, 10, 3, 5, 6);
+		Collections.sort(intList);
+		System.out.println(intList);	// polymorphism
+		
+		List<char> intList = Arrays.asList('c', 'd');
+		Collections.sort(intList);
+		System.out.println(intList);	// polymorphism
+
+	}
+
+}

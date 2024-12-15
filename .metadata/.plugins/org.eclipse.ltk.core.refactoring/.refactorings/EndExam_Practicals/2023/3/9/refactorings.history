@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;bst.BST.inOrder(...)&apos; to &apos;inOrderTraversal&apos;&#x0D;&#x0A;- Original project: &apos;EndExam_Practicals&apos;&#x0D;&#x0A;- Original element: &apos;bst.BST.inOrder(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;bst.BST.inOrderTraversal(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;inOrder&apos;" flags="589826" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;bst{BST.java[BST~inOrder~QTreeNode;" name="inOrderTraversal" references="true" stamp="1677936366244" version="1.0"/>
+</session>

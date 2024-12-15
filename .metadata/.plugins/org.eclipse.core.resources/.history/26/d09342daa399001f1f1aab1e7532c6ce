@@ -1,0 +1,13 @@
+
+public class Student {
+
+	String fName;
+	String lname;
+	int age;
+	String NIC;
+	
+	public void study() {
+		System.out.println(fName + " " +  lname + " is studying");
+	}
+	
+}

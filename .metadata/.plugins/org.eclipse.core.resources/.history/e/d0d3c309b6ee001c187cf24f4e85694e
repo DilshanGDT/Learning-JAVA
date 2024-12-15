@@ -1,0 +1,21 @@
+package lk.ac.pdn.model;
+
+public class TypeOneTourAgency implements LightVehicleDrivable, 
+ HeavyVehicleDrivable, TourOperator {
+
+	@Override
+	public void speak() {
+		System.out.println("English");
+	}
+
+	@Override
+	public void contactPlaces() {
+		System.out.println("Can manage all chains");
+	}
+
+	@Override
+	public void drive() {
+		System.out.println("Cars");
+	}
+
+}

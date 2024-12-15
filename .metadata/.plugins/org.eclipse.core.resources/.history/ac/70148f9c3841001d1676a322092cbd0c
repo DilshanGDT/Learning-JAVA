@@ -1,0 +1,16 @@
+
+public class Student {
+
+	public String name;
+	public int age;
+	public String gender;
+	
+	void  readingBooks() {
+		System.out.println(" Can read books...!");
+	}
+	
+	String writing() {
+		return "I can write...!";
+	}
+	
+}

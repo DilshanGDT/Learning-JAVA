@@ -1,0 +1,18 @@
+package vehicles;
+
+class Vehicle{
+	 String number;
+	 String owner;
+	 
+	
+	 public Vehicle(String number,String owner){
+	 this.number=number;
+	 this.owner=owner;
+	 }
+	 public String getNumber(){
+	 return number;
+	 }
+	 public String getOwner(){
+	 return owner;
+	 }
+	}

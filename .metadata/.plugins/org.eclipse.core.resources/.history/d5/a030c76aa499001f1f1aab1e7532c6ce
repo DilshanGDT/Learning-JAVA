@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String args[]) {
+		
+		Student lithmi = new Student();			//Object 1
+		lithmi.fName = "Lithmi";
+		lithmi.lname = "Thennakoon";
+		lithmi.age = 24;
+		
+		lithmi.study();
+	}
+}

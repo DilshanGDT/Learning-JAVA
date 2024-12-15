@@ -1,0 +1,19 @@
+
+public class Student {
+
+	String fName;
+	String lname;
+	int age;
+	String NIC;
+	
+	public Student(String firstName, String lastName, int age) {			// constructor
+		this.fName = firstName;
+		this.lname = lastName;
+		this.age = age;
+	}
+	
+	public void study() {		// method
+		System.out.println(this.fName + " " +  this.lname + " is studying");
+	}
+	
+}

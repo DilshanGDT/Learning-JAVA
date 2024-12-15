@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String args[]) {
+		
+		Student s1 = new Student("Lithmi", "Thennakoon", 24);			//Object 1
+		s1.study();
+		
+		Student s2 = new Student("Tharaka", "Dilshan", 18);
+	}
+}

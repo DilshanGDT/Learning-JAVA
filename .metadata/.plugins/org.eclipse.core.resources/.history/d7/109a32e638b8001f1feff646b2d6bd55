@@ -1,0 +1,19 @@
+package vehicles;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Set<Vehicle> vehSet = new HashSet<>();
+		Vehicle s1=new Vehicle("1001","Ryan");
+		Vehicle s2=new Vehicle("1002","John");
+		vehSet.add(s1);
+		vehSet.add(s2);
+
+		System.out.println(vehSet);
+	}
+
+}

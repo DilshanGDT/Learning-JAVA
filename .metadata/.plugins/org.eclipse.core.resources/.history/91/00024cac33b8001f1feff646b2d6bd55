@@ -1,0 +1,34 @@
+package vehicles;
+
+import java.util.Objects;
+
+class Vehicle {
+	String number;
+	String owner;
+
+	public Vehicle(String number, String owner) {
+		this.number = number;
+		this.owner = owner;
+	}
+
+	public String getNumber() {
+		return number;
+	}
+
+	public String getOwner() {
+		return owner;
+	}
+	
+	public int hashcode() {
+		return Objects.hash(number);	// number - unique
+	}
+
+	public boolean equals(Objects obj) {
+		if (this == obj) return true;		// if both references are the same -> true
+		if (obj == null || getClass() != obj.getClass()) return false;
+		Vehicle vehi = (Vehicle) obj;
+		return Objects.equals(number, vehi.number);
+	}
+	
+	
+}

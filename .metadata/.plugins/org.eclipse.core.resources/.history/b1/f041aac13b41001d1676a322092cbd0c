@@ -1,0 +1,37 @@
+
+public class Driver {
+
+	public static void main(String args[]) {
+		
+		Student student1 = new Student();
+		
+		student1.name = "Lithmi";
+		student1.age = 22;
+		
+		printInteger(addition(5, 10));
+		// addition(5, 10) = 15
+		// printInteger(15);
+		
+
+		
+	}
+	
+	public static int addition(int a, int b) {
+		return a+b;
+	}
+	
+	public static void printInteger(int a) {
+		System.out.println(a);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

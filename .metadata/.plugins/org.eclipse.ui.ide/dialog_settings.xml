@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+		<section name="NewWizard.dialogBounds">
+		</section>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Dilshan\eclipse-workspace"/>
+			<item value="C:\Users\Dilshan\Documents\VS Code\CSC3093_OOAD\SW Design Patterns"/>
+			<item value="E:\Uni Work\Academics\3000 Sem 01\CSC3093 Object Oriented Analysis &amp; Design\VS Code\Java\OOAD_Assignment"/>
+			<item value="C:\Users\Tharaka Dilshan\eclipse-workspace\BST"/>
+			<item value="C:\Users\Tharaka Dilshan\eclipse-workspace\CSC_2021_LabSheet_6"/>
+			<item value="C:\Users\Tharaka Dilshan\eclipse-workspace\xxxxxxx\test"/>
+			<item value="C:\Users\Tharaka Dilshan\eclipse-workspace\Day 04 Stacks"/>
+			<item value="C:\Users\Tharaka Dilshan\eclipse-workspace\Lab Sheet 04 Stack"/>
+			<item value="C:\Users\Tharaka Dilshan\eclipse-workspace\Arrays"/>
+			<item value="G:\Uni Work\1000 level sem 02\Lecture Recordings\CSC 1023\Zips\ArraysDemo"/>
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Tharaka Dilshan\eclipse-workspace\Project_TextFile"/>
+			<item value="C:\Users\Tharaka Dilshan\eclipse-workspace\Tutorial_2"/>
+			<item value="C:\Users\Tharaka Dilshan\eclipse-workspace\InputOutputManagment"/>
+			<item value="C:\Users\Tharaka Dilshan\eclipse-workspace\FileManagement"/>
+			<item value="C:\Users\Tharaka Dilshan\eclipse-workspace\Arrays"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="138"/>
+		<item key="DIALOG_Y_ORIGIN" value="114"/>
+		<item key="DIALOG_WIDTH" value="700"/>
+		<item key="DIALOG_HEIGHT" value="645"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

@@ -1,0 +1,30 @@
+
+public class Driver {
+
+	public static void main(String args[]) {
+		
+		Student student1 = new Student();
+		
+		student1.name = "Lithmi";
+		student1.age = 22;
+		
+
+		
+		addition(5, 10);
+
+		
+	}
+	
+	public static void addition(int a, int b) {
+		System.out.println(a + b);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
