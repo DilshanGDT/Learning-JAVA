@@ -1,6 +1,7 @@
 
 public abstract class Animal extends Object {
 
+        @SuppressWarnings("unused")
 	abstract void talking();
 }
 
