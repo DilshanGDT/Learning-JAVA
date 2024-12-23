@@ -1,8 +1,6 @@
 package lk.ac.pdn.app;
 
-import lk.ac.pdn.model.AndroidPhone;
 import lk.ac.pdn.model.HuwaweiY7;
-import lk.ac.pdn.model.IPhone;
 
 public class App {
 
