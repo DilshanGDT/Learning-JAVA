@@ -5,8 +5,8 @@ public class App {
 	public static void main(String[] args) {
 
 		Vehicle v1 = new Vehicle() {
-			
-			//override
+
+			@Override
 			public void startEngine() {
 				System.out.println("Key Start");
 			}
@@ -16,10 +16,10 @@ public class App {
 				System.out.println("ABS brake is going to apply");
 			}
 		};
-		
+
 		v1.applyBrake();
 		v1.startEngine();
-		
+
 	}
 
 }
