@@ -69,27 +69,24 @@ public class App {
 				System.out.println("  1. Add a Existing Battery type");
 				System.out.println("  2. Add a new Battery type");
 				
-				while (true) {
-					System.out.println("Choose an option : ");
-					int existenceOrNot = scan.nextInt();
-					
-					if (existenceOrNot == 1) {
-						
-						System.out.println("Battery adding is successful!");
-						break;
-						
-					} else if (existenceOrNot == 2) {
-						ARRAY_LOCATION += 1;
-						addNewBattery();
-						System.out.println("New Battery type adding is successful!");
-						break;
-						
-					} else {
-						System.out.println("Incorrect Input! Try Again... \n");
-						continue;
-						
-					}
-				}
+                            OUTER:
+                            while (true) {
+                                System.out.println("Choose an option : ");
+                                int existenceOrNot = scan.nextInt();
+                                switch (existenceOrNot) {
+                                    case 1:
+                                        System.out.println("Battery adding is successful!");
+                                        break OUTER;
+                                    case 2:
+                                        ARRAY_LOCATION += 1;
+                                        addNewBattery();
+                                        System.out.println("New Battery type adding is successful!");
+                                        break OUTER;
+                                    default:
+                                        System.out.println("Incorrect Input! Try Again... \n");
+                                }
+                            }
+
 			
 			case 0:
 			    System.out.println("You have successfully Exit!");
@@ -97,7 +94,6 @@ public class App {
 				
 			default:
 				System.out.println("Invalid Input!");
-				continue;
 				
 			}
 		}
