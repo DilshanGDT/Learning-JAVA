@@ -19,7 +19,7 @@ public class App {
 		
 		//    key      value
 		Map<Integer, Student> seatingMap = 
-				new HashMap<Integer, Student>();
+				new HashMap<>();
 		
 		Student s19001 = new Student("S19001", 10, 5, 56);
 		Student s19002 = new Student("S19002", 9, 5, 66);
